@@ -1,0 +1,246 @@
+# C# 프로젝트용 .gitignore 파일
+
+## 빌드 결과물
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+Arm/
+Arm64/
+bld/
+log/
+logs/
+
+## Visual Studio 파일
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio 2015/2017 캐시/옵션 디렉토리
+.vs/
+
+## Visual Studio 2017 자동 생성 파일
+Generated\ Files/
+
+## MSTest 테스트 결과물
+TestResult*/
+BuildLog.*
+
+## NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## StyleCop
+StyleCopReport.xml
+
+## 파일 기반 프로젝트
+*.pidb
+*.svclog
+*.scc
+
+## Chutzpah 테스트 파일
+_Chutzpah*
+
+## Visual C++ 캐시 파일
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+## Visual Studio 프로파일러
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## Visual Studio Trace Files
+*.e2e
+
+## TFS 2012 로컬 워크스페이스
+$tf/
+
+## Guidance Automation Toolkit
+*.gpState
+
+## ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## TeamCity
+_TeamCity*
+
+## DotCover
+*.dotCover
+
+## AxoCover
+.axoCover/*
+!.axoCover/settings.json
+
+## Coverlet
+coverage*.json
+coverage*.xml
+coverage*.info
+
+## Visual Studio 코드 커버리지 결과
+*.coverage
+*.coveragexml
+
+## NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+## MightyMoose
+*.mm.*
+AutoTest.Net/
+
+## Web workbench (sass)
+.sass-cache/
+
+## Installshield 출력 폴더
+[Ee]xpress/
+
+## DocProject
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+## Click-Once 디렉토리
+publish/
+
+## Publish 웹 출력
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+## Microsoft Azure Web App publish settings
+PublishScripts/
+
+## NuGet 패키지
+*.nupkg
+# NuGet Symbol 패키지
+*.snupkg
+# 패키지 폴더는 무시하되 packages.config는 포함
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+# NuGet v3의 project.json 파일은 무시하지 않음
+!**/[Pp]ackages/repositories.config
+# NuGet v3의 project.json 파일
+*.nuget.props
+*.nuget.targets
+
+## Microsoft Azure Build 출력
+csx/
+*.build.csdef
+
+## Microsoft Azure Emulator
+ecf/
+rcf/
+
+## Windows Store 앱 패키지 디렉토리와 파일
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+## Visual Studio 캐시 파일
+# 파일 끝에 있는 파일
+*.[Cc]ache
+# 기타 파일
+!*.[Cc]ache/
+
+## 기타
+*.swp
+*.swo
+*~
+
+## 로컬 히스토리 (Visual Studio Code용)
+.history/
+
+## BeatPulse healthcheck temp database
+healthchecksdb
+
+## Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+## Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+## Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+## VS Code 파일
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## 로컬 히스토리 (Visual Studio Code용)
+.history/
+
+## Windows 이미지 파일 캐시
+Thumbs.db
+ehthumbs.db
+
+## 폴더 설정 파일
+Desktop.ini
+
+## 재사용 가능한 아이템
+$RECYCLE.BIN/
+
+## Windows Installer 파일
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+## Windows 단축키
+*.lnk
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Linux
+*~
+
+# 임시 파일
+*.tmp
+*.temp 
